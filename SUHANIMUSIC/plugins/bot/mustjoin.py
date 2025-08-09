@@ -6,7 +6,7 @@ from SUHANIMUSIC import app
 
 #--------------------------
 
-MUST_JOIN = "venompratapchat"
+MUST_JOIN = "iamIstkhar"
 #------------------------
 @app.on_message(filters.incoming & filters.private, group=-1)
 async def must_join_channel(app: Client, msg: Message):
@@ -17,7 +17,7 @@ async def must_join_channel(app: Client, msg: Message):
             await app.get_chat_member(MUST_JOIN, msg.from_user.id)
         except UserNotParticipant:
             if MUST_JOIN.isalpha():
-                link = "https://t.me/" + MUST_JOIN
+                link = "https://t.me/https://t.me/+--i-JpgGkc8wY2E9"
             else:
                 chat_info = await app.get_chat(MUST_JOIN)
                 link = chat_info.invite_link
