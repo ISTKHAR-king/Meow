@@ -35,14 +35,14 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", -1001969159081))
-SUB_LOG = int(getenv("SUB_LOG", -1001969159081))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002584168578))
+SUB_LOG = int(getenv("SUB_LOG", -1002584168578))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 1073815732))
+OWNER_ID = int(getenv("OWNER_ID", 7633166578))
 
 #temp
-MAIN_OWNER = int(getenv("OWNER_ID", 1073815732))
+MAIN_OWNER = int(getenv("OWNER_ID", 7633166578))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 
@@ -66,7 +66,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # ----------------------------------------------------------------
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/venompower/venommusic",
+    "https://github.com/ISTKHAR-king/Meow",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
@@ -80,8 +80,8 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/VENOMPRATAP")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/VENOMPRATAPCHAT")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/iamIstkhar")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+--i-JpgGkc8wY2E9")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
@@ -95,7 +95,7 @@ SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/VENOMPRATAPCHAT")
 # --------------------------------------------------------------------------------
 # --------------------------------------------------------------------------------
 # --------------------------------------------------------------------------------
-AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
+AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 AUTO_LEAVE_ASSISTANT_TIME = int(getenv("ASSISTANT_LEAVE_TIME", "9000"))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION", "9999999"))
 SONG_DOWNLOAD_DURATION_LIMIT = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "9999999"))
